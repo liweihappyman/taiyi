@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>患者信息</title>
+    <link href="../publicStyle/flat-ui/css/flat-ui.css" rel="stylesheet">
+    <link href="../publicStyle/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../publicStyle/css/my-style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--标题栏开始-->
+<div class="header header-taiyi">
+    <div class="fixNav-medrec color-bg-medrec">
+        <a href="new-medrec.html"></a>
+        <span>患者信息</span>
+    </div>
+</div>
+<!--标题栏结束-->
+
+<!--患者信息patient-information-medrec开始-->
+<div class="patient-information-medrec">
+    <!--患者基本信息container-basic-patient-information开始-->
+    <div class="container-basic-patient-information">
+        <span>基本信息</span>
+        <div class="basic-input-patient-information">
+            <div class="nameOfPatient color-bg-medrec">姓名</div>
+            <input type="text" class="form-control" placeholder="输入姓名">
+        </div>
+
+        <div class="basic-radio-patient-information">
+            <div class="genderOfPatient color-bg-medrec">性别</div>
+            <label class="radio">
+                <input type="radio" name="optionsRadios" id="genderOptionsRadios1" value="option1" data-toggle="radio"
+                       class="custom-radio">
+                <span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                男性
+            </label>
+            <label class="radio">
+                <input type="radio" name="optionsRadios" id="genderOptionsRadios2" value="option1" data-toggle="radio"
+                       checked="" class="custom-radio"><span class="icons"><span class="icon-unchecked"></span><span
+                    class="icon-checked"></span></span>
+                女性
+            </label>
+        </div>
+
+        <div class="basic-input-patient-information">
+            <div class="ageOfPatient color-bg-medrec">年龄</div>
+            <input type="text" class="form-control" placeholder="输入年龄">
+        </div>
+
+        <div class="basic-input-patient-information">
+            <div class="idOfPatient color-bg-medrec">身份证</div>
+            <input type="text" class="form-control" placeholder="输入身份证">
+        </div>
+
+        <div class="basic-input-patient-information">
+            <div class="occupationOfPatient color-bg-medrec">职业</div>
+            <input type="text" class="form-control" placeholder="输入职业">
+        </div>
+
+        <div class="basic-radio-patient-information">
+            <div class="marriageOfPatient color-bg-medrec">婚姻状况</div>
+            <label class="radio">
+                <input type="radio" name="optionsRadios" id="marriageOptionsRadios1" value="option1" data-toggle="radio"
+                       class="custom-radio">
+                <span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                已婚
+            </label>
+            <label class="radio">
+                <input type="radio" name="optionsRadios" id="marriageOptionsRadios2" value="option1" data-toggle="radio"
+                       checked="" class="custom-radio"><span class="icons"><span class="icon-unchecked"></span><span
+                    class="icon-checked"></span></span>
+                未婚
+            </label>
+        </div>
+    </div>
+    <!--患者就诊信息visit-information-medrec开始-->
+    <div class="visit-information-medrec">
+        <span>就诊信息</span>
+        <div class="date-group">
+            <div>选择就诊日期</div>
+            <div class="input-group date" id='datetimepicker'>
+                <input type="text" class="form-control"/>
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+        </div>
+
+        <div class="basic-input-patient-information">
+            <div class="idOfPatient color-bg-medrec">就诊科室</div>
+            <input type="text" class="form-control" placeholder="输入就诊科室">
+        </div>
+    </div>
+</div>
+<!--患者信息patient-information-medrec结束-->
+
+<!--保存患者信息开始-->
+<div class="container submit-patient-information">
+    <a class="btn btn-block color-bg-medrec" href="new-medrec.html">保存</a>
+</div>
+<!--保存患者信息结束-->
+
+<script src="../publicStyle/js/jquery.min.js"></script>
+<script src="../publicStyle/js/bootstrap.min.js"></script>
+<script src="../publicStyle/flat-ui/js/flat-ui.min.js"></script>
+<script src="../publicStyle/flat-ui/js/application.js"></script>
+<script src="../publicStyle/js/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript"
+        src="../publicStyle/js/datetimepicker/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#datetimepicker').datetimepicker({
+            language: 'zh-CN',
+            weekStart: 1,
+            todayBtn: 1,
+            autoclose: 1,
+            todayHighlight: 1,
+            startView: 2,
+            forceParse: 0,
+            showMeridian: 1,
+            minView: "month", //选择日期后，不会再跳转去选择时分秒
+            format: "yyyy-mm-dd", //选择日期后，文本框显示的日期格式
+            autoclose: true //选择日期后自动关闭
+        }).on('changeDate', function (ev) {
+            $(this).datetimepicker('hide');
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>新建病历</title>
+    <link href="../publicStyle/flat-ui/css/flat-ui.css" rel="stylesheet">
+    <link href="../publicStyle/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../publicStyle/css/my-style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!--标题栏开始-->
+<div class="header header-taiyi">
+    <div class="fixNav-medrec color-bg-medrec">
+        <a href="index-medrec.html"></a>
+        <span>新建病历</span>
+    </div>
+</div>
+<!--标题栏结束-->
+
+<!--新建病历new-medrec开始-->
+<div class="container-new-medrec">
+    <div class="label-new-medrec tagsinput-primary">
+        <input name="tagsinput" class="tagsinput" data-role="tagsinput" placeholder="添加标签"/>
+    </div>
+    <div class="patientInformation-new-medrec">
+        <div class="patientInformation color-bg-medrec">患者信息</div>
+        <a href="patient-information.html">
+            <div class="patient-name">姓名</div>
+            <div class="diagnosis-time">就诊时间</div>
+        </a>
+    </div>
+    <div class="diagnosis-new-medrec">
+        <div class="diagnosisInformation color-bg-medrec">诊断</div>
+        <textarea type="text" class="form-control" placeholder="输入诊断"></textarea>
+    </div>
+    <div class="diagnosis-new-medrec diagnosis-detail-new-medrec">
+        <div class="diagnosisInformation color-bg-medrec">病情详情</div>
+        <textarea type="text" class="form-control" placeholder="输入病情详情"></textarea>
+    </div>
+
+    <div class="courseOfPatient">
+        <a href="" class="add-course-medrec color-font-medrec">
+            添加病程
+        </a>
+        <div class="container course-new-medrec list-course-new-medrec">
+            <div class="course-information">
+                <span class="course color-bg-medrec">入院</span>
+                <span class="remark-course-medrec">备注信息</span>
+            </div>
+            <div class="row report-course">
+                <div class="list-report-coures col-xs-6">
+                    <a href="#" class="report-infrared">
+                        <img src="../publicStyle/img/report-infrared.jpg" alt="缩略图">
+                    </a>
+                </div>
+                <div class="list-report-coures col-xs-6">
+                    <a href="#" class="report-infrared">
+                        <img src="../publicStyle/img/report-infrared.jpg" alt="缩略图">
+                    </a>
+                </div>
+            </div>
+            <div class="time-report-course">
+                上传时间
+            </div>
+        </div>
+
+        <div class="container course-new-medrec list-course-new-medrec">
+            <div class="course-information">
+                <span class="course color-bg-medrec">处方医嘱</span>
+                <span class="remark-course-medrec">备注信息</span>
+            </div>
+            <div class="row report-course">
+                <div class="list-report-coures col-xs-6">
+                    <a href="#" class="report-infrared">
+                        <img src="../publicStyle/img/report-infrared.jpg" alt="缩略图">
+                    </a>
+                </div>
+                <div class="list-report-coures col-xs-6">
+                    <a href="#" class="report-infrared">
+                        <img src="../publicStyle/img/report-infrared.jpg" alt="缩略图">
+                    </a>
+                </div>
+            </div>
+            <div class="time-report-course">
+                上传时间
+            </div>
+        </div>
+    </div>
+</div>
+<!--新建病历new-medrec结束-->
+
+<!--保存病历开始-->
+<div class="container submit-new-medrec">
+    <a class="btn btn-block color-bg-medrec" href="index-medrec.html">保存</a>
+</div>
+<!--保存病历结束-->
+
+<div class="container" style="height: 5px">
+</div>
+
+<script src="../publicStyle/js/jquery.min.js"></script>
+<script src="../publicStyle/js/bootstrap.min.js"></script>
+<script src="../publicStyle/flat-ui/js/flat-ui.min.js"></script>
+<script src="../publicStyle/flat-ui/js/application.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.list-report-coures img').css('height',$('.list-report-coures img').css('width'));
+    })
+</script>
+</body>
+
+</html>

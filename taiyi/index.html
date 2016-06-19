@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>首页</title>
+    <link href="publicStyle/css/bootstrap.min.css" rel="stylesheet">
+    <link href="publicStyle/css/my-style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<!--标题栏开始-->
+<div class="header header-taiyi">
+    <div class="fixNav-taiyi">
+        太医
+    </div>
+</div>
+<!--标题栏结束-->
+
+<!--广告Banner开始-->
+<div class="container">
+    <!--轮播图开始-->
+    <div class="row">
+        <div id="banner-taiyi" class="carousel slide banner-taiyi">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="#"><img src="publicStyle/img/banner1.jpg" alt="First slide"></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="publicStyle/img/banner2.jpg" alt="Second slide"></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="publicStyle/img/banner3.jpg" alt="Third slide"></a>
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left" href="#banner-taiyi" data-slide="prev">
+            </a>
+            <a class="carousel-control right" href="#banner-taiyi" data-slide="next">
+            </a>
+        </div>
+    </div>
+    <!--轮播图结束-->
+</div>
+<!--广告Banner结束-->
+
+<!--分类Category开始-->
+<div class="container">
+    <div class="row category">
+        <a href="physicalIdentification/index-phyide.html" class="col-xs-4">
+            <img class="img-responsive" src="publicStyle/icon/category-img1.png">
+            <h4>体质辨识</h4>
+        </a>
+        <a href="medicalRecord/index-medrec.html" class="col-xs-4">
+            <img class="img-responsive" src="publicStyle/icon/category-img2.png">
+            <h4>电子病历</h4>
+        </a>
+        <a href="#" class="col-xs-4">
+            <img class="img-responsive" src="publicStyle/icon/category-img3.png">
+            <h4>在线问诊</h4>
+        </a>
+    </div>
+</div>
+<!--分类Category结束-->
+
+<!--养生资讯healthyInformation开始-->
+<div class="container container-healthyInformation">
+    <div class="row">
+        <div class="healthyInformation-pyhide">
+            <span>您的体质是</span>
+            <span class="your-first-phyide">气虚质</span>
+            <span class="your-second-phyide">气虚质</span>
+            <span class="your-third-phyide">气虚质</span>
+        </div>
+        <ul id="tab-healthyInformation" class="nav nav-tabs">
+            <li class="active"><a href="#food-healthyInformation" data-toggle="tab">食疗</a></li>
+            <li><a href="#sports-healthyInformation" data-toggle="tab">运动</a></li>
+            <li><a href="#music-healthyInformation" data-toggle="tab">五音</a></li>
+            <li><a href="#treatment-healthyInformation" data-toggle="tab">外治</a></li>
+            <li><a href="#acupoint-healthyInformation" data-toggle="tab">穴位</a></li>
+        </ul>
+        <div id="myTab" class="tab-content tab-content-healthyInformation">
+            <div class="tab-pane fade in active" id="food-healthyInformation">
+                <img src="publicStyle/img/recipe1.jpg">
+                <div class="firstRecipe container">
+                    <span>气虚质食谱：羊肉，当归，枸杞</span>
+                    <a href="physicalIdentification/healthyInformation-detail-phyide.html">
+                        更多详情 >>
+                    </a>
+                </div>
+
+                <div class="secondRecipe container">
+                    <span>气虚质食谱：羊肉，当归，枸杞</span>
+                    <a href="physicalIdentification/healthyInformation-detail-phyide.html">
+                        更多详情 >>
+                    </a>
+                </div>
+
+                <div class="thirdRecipe container">
+                    <span>气虚质食谱：羊肉，当归，枸杞</span>
+                    <a href="physicalIdentification/healthyInformation-detail-phyide.html">
+                        更多详情 >>
+                    </a>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="sports-healthyInformation">
+                <a href="physicalIdentification/healthyInformation-detail-phyide.html">
+                    <video src="publicStyle/video/movie.ogg" controls="controls" style="width: 100%"></video>
+                </a>
+            </div>
+            <div class="tab-pane fade" style="width: 100%; padding-bottom: -47px; overflow: hidden"
+                 id="music-healthyInformation">
+                <a href="#">
+                    <video src="publicStyle/video/yanyuan.mp3" controls="controls" style="width: 100%"
+                           poster="publicStyle/img/test-3.png"></video>
+                </a>
+            </div>
+            <div class="tab-pane fade" id="treatment-healthyInformation">
+                <a href="physicalIdentification/healthyInformation-detail-phyide.html">
+                    <img src="publicStyle/img/test-4.png">
+                </a>
+            </div>
+            <div class="tab-pane fade" id="acupoint-healthyInformation">
+                <a href="physicalIdentification/healthyInformation-detail-phyide.html">
+                    <img src="publicStyle/img/test-5.png">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--养生资讯healthyInformation结束-->
+
+<!--底部导航栏开始-->
+<footer class="footer">
+    <div class="foot-taiyi">
+        <div class="foot-taiyi_2">
+            <a href="index.html" class="active">
+                <i class="navIcon home"></i>
+                <span class="text">首页</span>
+            </a>
+            <a href="#">
+                <i class="navIcon sort"></i>
+                <span class="text">分类</span>
+            </a>
+            <a href="#">
+                <i class="navIcon shop"></i>
+                <span class="text">购物车</span>
+            </a>
+            <a href="#">
+                <i class="navIcon member"></i>
+                <span class="text">我的</span>
+            </a>
+        </div>
+    </div>
+</footer>
+<!--底部导航栏结束-->
+
+<script src="publicStyle/js/jquery.min.js"></script>
+<script src="publicStyle/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.carousel').carousel({
+            interval: 4000
+        });
+    });
+</script>
+
+</body>
+</html>

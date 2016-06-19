@@ -1,0 +1,896 @@
+@charset "utf-8";
+/* CSS Document */
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, table, td, img, div, dl, dt, dd, input {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+input, select, textarea {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*浮动与清除清浮动*/
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*Global 百分比设置宽度*/
+html {
+    width: 100%;
+    height: 100%;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+    color: #74777b;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Microsoft JhengHei";
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 24px;
+    }
+}
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -p-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:after, *:before {
+    display: block;
+    content: "";
+}
+
+/*颜色配置*/
+.color-font-medrec{
+    color: #56abe4!important;
+}
+
+.color-bg-medrec{
+    background-color: #56abe4!important;
+}
+
+/*怎么让手机浏览器和微信焦点在文本框输入时不会自动放大页面*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+    select:focus, textarea:focus, input:focus { font-size: 16px !important; }
+}
+/*
+
+主体样式开始
+
+*/
+/*标题栏开始*/
+.header-taiyi {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.fixNav-taiyi {
+    width: 100%;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+    color: #e6e6e6;
+    background: #2C3E50;
+    font-weight: 700;
+    position: fixed;
+    z-index: 100;
+}
+
+/*广告Banner开始*/
+.banner-taiyi {
+    width: 100%;
+    height: 45%;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.banner-taiyi img {
+    width: 100%;
+}
+
+/*分类Category开始*/
+.category {
+    padding: 10px 0;
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.category img {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.category h4 {
+    margin: 5px auto;
+    font-size: 12px;
+    color: #0f0f0f;
+}
+
+.img-responsive {
+    line-height: 32px;
+}
+
+/*养生资讯healthyInformation开始*/
+.container-healthyInformation {
+    margin-bottom: 35px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.container-healthyInformation li {
+    width: 20%;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    background: #fff;
+}
+
+.healthyInformation-pyhide {
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    background-color: #fff;
+    margin-bottom: 2px;
+}
+
+@media screen and (min-width: 768px) {
+    .healthyInformation-pyhide {
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+.healthyInformation-pyhide span {
+    display: inline-block;
+    text-align: center;
+    padding-right: 5px;
+}
+
+.healthyInformation-pyhide .your-first-phyide {
+    font-weight: 700;
+    color: #963;
+    padding-left: 5px;
+}
+
+.healthyInformation-pyhide .your-second-phyide {
+    font-weight: 700;
+    color: #963;
+    padding-left: 5px;
+}
+
+.healthyInformation-pyhide .your-third-phyide {
+    font-weight: 700;
+    color: #963;
+    padding-left: 5px;
+}
+
+.container-healthyInformation li a {
+    color: #000;
+}
+
+.container-healthyInformation .nav-tabs > li.active > a {
+    background-color: #F88E8B;
+}
+
+.tab-content-healthyInformation img {
+    width: 100%;
+}
+
+.tab-pane {
+    position: relative;
+}
+
+.tab-pane .container {
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    padding: 10px;
+    color: #000;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.tab-pane .firstRecipe {
+    top: 10%;
+}
+
+.tab-pane .secondRecipe {
+    top: 40%;
+}
+
+.tab-pane .thirdRecipe {
+    top: 70%;
+}
+
+/*底部导航栏开始*/
+.footer {
+    position: relative;
+    height: 5%;
+}
+
+.foot-taiyi {
+    width: 100%;
+    height: 48px;
+    margin-top: 10px;
+    position: fixed;
+    z-index: 100;
+    right: 0;
+    bottom: 0;
+}
+
+.foot-taiyi_2 {
+    margin: 0 auto;
+    background: #fff;
+    height: 48px;
+    border-top: 1px solid #ccc;
+}
+
+.foot-taiyi_2 a:active {
+    color: #666;
+}
+
+.foot-taiyi_2 a:visited {
+    color: #666;
+}
+
+.foot-taiyi a {
+    display: block;
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+}
+
+.foot-taiyi .navIcon {
+    width: 28px;
+    height: 28px;
+    margin-top: 3px;
+    display: inline-block;
+    background: url(../icon/icon.png) no-repeat;
+    background-size: 280px 90px;
+}
+
+.foot-taiyi .badge {
+    background-color: #f15353;
+    position: absolute;
+    right: 50%;
+    margin-right: -32px;
+    top: 2px;
+}
+
+.foot-taiyi .text {
+    display: block;
+    line-height: 1;
+    margin-top: -3px;
+}
+
+.foot-taiyi .active .text {
+    color: #6b92ed;
+}
+
+.foot-taiyi .home {
+    background-position: 0 0;
+}
+
+.foot-taiyi .active .home {
+    background-position: 0 -34px;
+}
+
+.foot-taiyi .sort {
+    background-position: -33px 0;
+}
+
+.foot-taiyi .active .sort {
+    background-position: -33px -34px;
+}
+
+.foot-taiyi .shop {
+    background-position: -66px 0;
+}
+
+.foot-taiyi .active .shop {
+    background-position: -66px -34px;
+}
+
+.foot-taiyi .member {
+    background-position: -99px 0;
+}
+
+.foot-taiyi .active .member {
+    background-position: -99px -34px;
+}
+
+/*体质辨识开始*/
+.fixNav-phyide {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #e6e6e6;
+    background: #2C3E50;
+    font-weight: 700;
+    position: fixed;
+    z-index: 100;
+}
+
+.fixNav-phyide a {
+    float: left;
+    width: 40px;
+    height: 24px;
+    margin-top: 8px;
+    margin-right: -40px;
+    background: url("../icon/back.png") 15px no-repeat;
+}
+
+/*体质辨识介绍开始*/
+/*phyide : physical identification*/
+.introduce-phyide {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+/*选择辨识方式method-phyide开始*/
+.questionnaire-phyide {
+    margin: 4% 3% 4% 6%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    background: #fff 0px no-repeat;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.questionnaire-phyide ul li {
+    position: relative;
+}
+
+.questionnaire-phyide ul li img, .infrared-phyide ul li img {
+    float: left;
+    height: 21px;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.infrared-phyide {
+    margin: 4% 4% 4% 2%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    background: #fff 0px no-repeat;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.container-method-phyide .img-phyide {
+    margin-top: 30%;
+    margin-bottom: 10%;
+}
+
+.container-method-phyide a {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.container-method-phyide ul {
+    margin-bottom: 20%;
+}
+
+.container-method-phyide li {
+    padding-bottom: 5%;
+}
+
+/*红外体质辨识infrared-phyide开始*/
+.container-infrared-phyide {
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 10px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.introduce-infrared-phyide {
+    width: 100%;
+    height: 40px;
+    margin: 20px auto 10px;
+    text-align: center;
+    position: relative;
+}
+
+.introduce-infrared-phyide span {
+    float: left;
+    text-align: center;
+}
+
+.item-infrared-phyide {
+    margin-bottom: 20px;
+}
+
+.item-infrared-phyide .select-1 {
+    background-color: #2C3E50;
+    color: white;
+}
+
+.item-infrared-phyide .select-1:after {
+    float: right;
+    width: 24px;
+    height: 21px;
+    background-image: url("../icon/number1_1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 5px;
+    top: -10px;
+}
+
+.item-infrared-phyide .select-2 {
+    background-color: #34495E;
+    color: white;
+}
+
+.item-infrared-phyide .select-2:after {
+    float: right;
+    width: 24px;
+    height: 21px;
+    background-image: url("../icon/number2_1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 5px;
+    top: -10px;
+}
+
+.item-infrared-phyide .select-3 {
+    background-color: #2C3E50;
+    color: white;
+}
+
+.item-infrared-phyide .select-3:after {
+    float: right;
+    width: 24px;
+    height: 21px;
+    background-image: url("../icon/number3_1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 5px;
+    top: -10px;
+}
+
+.report-infrared-phyide img {
+    width: 100%;
+}
+
+.report-upload1 img {
+    width: 50%;
+    vertical-align: middle;
+}
+
+/*确认体质button开始*/
+.submit-infrared-phyide {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+
+/*上传报告单upload-phyide开始*/
+.container-upload-phyide {
+    text-align: center;
+    margin-top: 24px;
+}
+
+/*体质测试问卷questionnaire-phyide开始*/
+.container-questionnaire-phyide {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #fff;
+    padding-bottom: 10px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.item-questionnaire-phyide {
+    width: 100%;
+    padding: 5px 15px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.container-questionnaire-phyide .btn-group {
+    width: 100%;
+}
+
+.container-questionnaire-phyide .btn-group .active {
+    background-color: #337ab7;
+}
+
+.container-questionnaire-phyide .btn-default {
+    width: 20%;
+}
+
+.container-questionnaire-phyide img {
+    width: 100%;
+}
+
+.submit-questionnaire-phyide {
+    position: relative;
+    margin-top: 25px;
+}
+
+/*体质报告confirm-report-phyide开始*/
+.container-confirm-report-phyide {
+    text-align: center;
+    margin: 0 auto 20px;
+    padding-top: 10px;
+    background-color: #fff;
+}
+
+/*体质详情description-phyide开始*/
+.detail-phyide {
+    margin: 15px auto;
+    background-color: #fff;
+}
+
+.detail-phyide h3 {
+    padding: 20px 20px 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.description-phyide {
+    margin: 18px;
+}
+
+/*健康咨询详情healthyInformation-detail-phyide开始*/
+.container-healthyInformation-detail-phyide {
+    width: 100%;
+    background-color: #fff;
+}
+
+.container-healthyInformation-detail-phyide .header-hid-phyide {
+    border-bottom: 1px solid #ccc;
+}
+
+.container-healthyInformation-detail-phyide .header-hid-phyide h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.container-healthyInformation-detail-phyide .list-hid-phydie {
+    width: 100%;
+    height: 24px;
+}
+
+.container-healthyInformation-detail-phyide .list-hid-phydie .author-hid-phydie,
+.container-healthyInformation-detail-phyide .list-hid-phydie .time-hid-phydie {
+    float: left;
+    margin-right: 15px;
+}
+
+.container-healthyInformation-detail-phyide .list-hid-phydie .category-hid-phydie {
+    float: right;
+    color: #963;
+}
+
+.content-hid-phyide {
+    padding-top: 15px;
+}
+
+.content-hid-phyide img {
+    width: 100%;
+}
+
+/*电子病历开始*/
+/*medrec : medical record*/
+.fixNav-medrec {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background: #56abe4;
+    font-weight: 700;
+    position: fixed;
+    z-index: 100;
+}
+
+.fixNav-medrec a {
+    float: left;
+    width: 40px;
+    height: 24px;
+    margin-top: 8px;
+    margin-right: -40px;
+    background: url("../icon/back.png") 15px no-repeat;
+}
+
+/*新建病历create-new-medrec开始*/
+.create-new-medrec {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    text-align: center;
+    background-color: #fff;
+    color: #56abe4;
+}
+
+.create-new-medrec img {
+    width: 32px;
+    height: 32px;
+    margin-top: -8px;
+    margin-left: -24px;
+}
+
+.create-new-medrec span {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/*病历夹排序order-folder-medrec开始*/
+.order-folder-medrec {
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.order-folder-medrec img {
+    width: 32px;
+    height: 32px;
+}
+
+/*病历夹folder-medrec开始*/
+.list-folder-medrec {
+    margin-bottom: 8px;
+}
+
+.container-folder-medrec .header-folder-medrec {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background-color: #56abe4;
+}
+
+.container-folder-medrec .header-folder-medrec .month-folder-medrec {
+    float: left;
+    margin-left: 5%;
+}
+
+.container-folder-medrec .header-folder-medrec .count-folder-medrec {
+    float: right;
+    margin-right: 5%;
+}
+
+.container-folder-medrec .content-medrec {
+    color: #56abe4;
+    background-color: #fff;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1px;
+    padding-left: 8%;
+    border-radius: 0 0 4px 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.container-folder-medrec .content-medrec div {
+    padding: 5px 0;
+}
+
+.container-folder-medrec .content-medrec .patient-content-medrec {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/*体质报告new-medrec开始*/
+.label-new-medrec {
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.label-new-medrec .bootstrap-tagsinput {
+    border-color: #56abe4;
+}
+
+.label-new-medrec .tag {
+    background-color: #56abe4;
+}
+
+.patientInformation-new-medrec {
+    background-color: #fff;
+    margin-bottom: 2px;
+}
+
+.patientInformation-new-medrec a {
+    display: block;
+    background: url("../icon/forward_1.png") 97% no-repeat;
+}
+
+.patientInformation-new-medrec div {
+    margin-top: 8px;
+    margin-bottom: 2px;
+    padding-left: 5%;
+    color: #74777b;
+}
+
+.patientInformation-new-medrec .patientInformation {
+    background-color: #56abe4;
+    color: #fff;
+}
+
+.diagnosis-new-medrec {
+    background-color: #fff;
+    margin-bottom: 2px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.diagnosis-new-medrec .diagnosisInformation {
+    padding-left: 5%;
+    background-color: #56abe4;
+    color: #fff;
+}
+
+.diagnosis-new-medrec .form-control {
+    padding-left: 5%;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.add-course-medrec {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: #56abe4;
+    margin: 15px auto;
+    display: block;
+}
+
+.course-new-medrec {
+    background-color: #fff;
+    margin-bottom: 2px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.course-new-medrec {
+    margin: 12px 3%;
+}
+
+.course-new-medrec span {
+    display: inline-block;
+}
+
+.course-new-medrec .course-information {
+    padding-bottom: 12px;
+}
+
+.course-new-medrec .course-information .course{
+    background-color: #56abe4;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+}
+
+.course-new-medrec .report-course{
+    margin-bottom: 12px;
+}
+
+.course-new-medrec .report-course .list-report-coures img {
+    width: 100%;
+    display: inline-block;
+}
+
+.course-new-medrec .time-report-course{
+    margin-bottom: 12px;
+}
+
+/*保存病历开始*/
+.submit-new-medrec {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.submit-new-medrec .btn {
+    color: #fff;
+    background-color: #56abe4;
+    border-color: #56abe4;
+}
+
+/*患者信息patient-information-medrec开始*/
+.name-patient-information {
+    background-color: #fff;
+    margin-bottom: 2px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.name-patient-information .nameOfPatient {
+    padding-left: 5%;
+    background-color: #56abe4;
+    color: #fff;
+}
+
+.name-patient-information .form-control {
+    padding-left: 5%;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.input-group.focus .input-group-addon{
+    background-color: #56abe4;
+    border-color: #56abe4;
+}
+
+.submit-patient-information{
+    width: 100%;
+    margin-top: 15px;
+}
+
