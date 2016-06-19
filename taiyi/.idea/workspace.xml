@@ -21,45 +21,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.6271186">
-              <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.30992737">
+              <caret line="120" column="78" selection-start-line="120" selection-start-column="78" selection-end-line="120" selection-end-column="81" />
               <folding>
-                <element signature="n#style#0;n#video#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#video#0;n#a#0;n#div#2;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#a#0;n#div#2;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="patient_information.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medicalRecord/patient_information.html">
+      <file leaf-file-name="healthyInformation_detail_phyide.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/physicalIdentification/healthyInformation_detail_phyide.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_medrec.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/medicalRecord/new_medrec.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5811138">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index_medrec.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medicalRecord/index_medrec.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.661017">
-              <caret line="101" column="19" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="19" />
+            <state vertical-scroll-proportion="-6.7586207">
+              <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="367" />
               <folding />
             </state>
           </provider>
@@ -68,8 +47,8 @@
       <file leaf-file-name="my-style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/publicStyle/css/my-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1724138">
-              <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+            <state vertical-scroll-proportion="5.0">
+              <caret line="516" column="14" selection-start-line="516" selection-start-column="14" selection-end-line="516" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -107,15 +86,16 @@
         <option value="$PROJECT_DIR$/publicStyle/test.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/medicalRecord/patient-information.html" />
-        <option value="$PROJECT_DIR$/publicStyle/css/my-style.css" />
         <option value="$PROJECT_DIR$/medicalRecord/index-medrec.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/physicalIdentification/index_phyide.html" />
-        <option value="$PROJECT_DIR$/physicalIdentification/infrared_phyide.html" />
         <option value="$PROJECT_DIR$/physicalIdentification/questionnaire_phyide.html" />
         <option value="$PROJECT_DIR$/physicalIdentification/upload_infrared_report.html" />
         <option value="$PROJECT_DIR$/medicalRecord/index_medrec.html" />
         <option value="$PROJECT_DIR$/medicalRecord/new_medrec.html" />
+        <option value="$PROJECT_DIR$/physicalIdentification/healthyInformation_detail_phyide.html" />
+        <option value="$PROJECT_DIR$/publicStyle/css/my-style.css" />
+        <option value="$PROJECT_DIR$/physicalIdentification/infrared_phyide.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -215,15 +195,15 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\医疗APP需求\前端开发\taiyi" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\医疗APP需求\前端开发\taiyi\publicStyle\js" />
       <recent name="C:\Users\Administrator\Desktop\医疗APP需求\前端开发\taiyi\publicStyle\icon" />
       <recent name="C:\Users\Administrator\Desktop\医疗APP需求\前端开发\taiyi\publicStyle\img" />
       <recent name="C:\Users\Administrator\Desktop\医疗APP需求\前端开发\taiyi\flat-ui" />
       <recent name="C:\Users\Administrator\Desktop\医疗APP需求\前端开发\taiyi\flat-ui\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\医疗APP需求\前端开发\taiyi" />
     </key>
   </component>
   <component name="RunManager">
@@ -508,50 +488,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/physicalIdentification/confirm_phyide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.346247">
-          <caret line="69" column="35" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/physicalIdentification/healthyInformation_detail_phyide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2542373">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/publicStyle/css/my-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1724138">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/physicalIdentification/upload_infrared_report.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3329298">
           <caret line="23" column="15" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/physicalIdentification/questionnaire_phyide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3329298">
-          <caret line="210" column="55" selection-start-line="210" selection-start-column="55" selection-end-line="210" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/physicalIdentification/infrared_phyide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4915254">
-          <caret line="101" column="18" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -564,15 +504,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/medicalRecord/index_medrec.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6271186">
-          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#video#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#video#0;n#a#0;n#div#2;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.3329298">
+          <caret line="101" column="19" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medicalRecord/new_medrec.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7990315">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -584,19 +528,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medicalRecord/index_medrec.html">
+    <entry file="file://$PROJECT_DIR$/physicalIdentification/confirm_phyide.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.661017">
-          <caret line="101" column="19" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.40303737">
+          <caret line="69" column="35" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medicalRecord/new_medrec.html">
+    <entry file="file://$PROJECT_DIR$/physicalIdentification/infrared_phyide.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5811138">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.71845794">
+          <caret line="89" column="61" selection-start-line="89" selection-start-column="61" selection-end-line="89" selection-end-column="61" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/physicalIdentification/questionnaire_phyide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3142524">
+          <caret line="210" column="55" selection-start-line="210" selection-start-column="55" selection-end-line="210" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publicStyle/css/my-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.0">
+          <caret line="516" column="14" selection-start-line="516" selection-start-column="14" selection-end-line="516" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/physicalIdentification/healthyInformation_detail_phyide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.7586207">
+          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="367" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30992737">
+          <caret line="120" column="78" selection-start-line="120" selection-start-column="78" selection-end-line="120" selection-end-column="81" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#a#0;n#div#2;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

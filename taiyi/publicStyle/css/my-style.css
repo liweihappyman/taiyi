@@ -514,7 +514,7 @@ body {
 }
 
 .report-upload1 img {
-    width: 50%;
+    width: 100%;
     vertical-align: middle;
 }
 
@@ -594,6 +594,10 @@ body {
 }
 
 /*健康咨询详情healthyInformation-detail-phyide开始*/
+.fixNav-healthyInfo-detail-phyide span {
+    float: right;
+    margin-right: 10px;
+}
 .container-healthyInformation-detail-phyide {
     width: 100%;
     background-color: #fff;
@@ -632,7 +636,14 @@ body {
     width: 100%;
 }
 
-/*电子病历开始*/
+
+/*
+
+
+电子病历开始
+
+
+*/
 /*medrec : medical record*/
 .fixNav-medrec {
     width: 100%;
