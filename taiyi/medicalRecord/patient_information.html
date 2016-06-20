@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>患者信息</title>
-    <link href="../publicStyle/flat-ui/css/flat-ui.css" rel="stylesheet">
     <link href="../publicStyle/css/bootstrap.min.css" rel="stylesheet">
     <link href="../publicStyle/css/my-style.css" rel="stylesheet">
     <!--[if lt IE 9]>
@@ -17,7 +16,7 @@
 <!--标题栏开始-->
 <div class="header header-taiyi">
     <div class="fixNav-medrec color-bg-medrec">
-        <a href="new-medrec.html"></a>
+        <a href="new_medrec.html"></a>
         <span>患者信息</span>
     </div>
 </div>
@@ -80,24 +79,7 @@
             </label>
         </div>
     </div>
-    <!--患者就诊信息visit-information-medrec开始-->
-    <div class="visit-information-medrec">
-        <span>就诊信息</span>
-        <div class="date-group">
-            <div>选择就诊日期</div>
-            <div class="input-group date" id='datetimepicker'>
-                <input type="text" class="form-control"/>
-                <span class="input-group-addon">
-                    <span class="glyphicon glyphicon-calendar"></span>
-                </span>
-            </div>
-        </div>
 
-        <div class="basic-input-patient-information">
-            <div class="idOfPatient color-bg-medrec">就诊科室</div>
-            <input type="text" class="form-control" placeholder="输入就诊科室">
-        </div>
-    </div>
 </div>
 <!--患者信息patient-information-medrec结束-->
 
@@ -109,29 +91,5 @@
 
 <script src="../publicStyle/js/jquery.min.js"></script>
 <script src="../publicStyle/js/bootstrap.min.js"></script>
-<script src="../publicStyle/flat-ui/js/flat-ui.min.js"></script>
-<script src="../publicStyle/flat-ui/js/application.js"></script>
-<script src="../publicStyle/js/datetimepicker/bootstrap-datetimepicker.min.js"></script>
-<script type="text/javascript"
-        src="../publicStyle/js/datetimepicker/locales/bootstrap-datetimepicker.zh-CN.js"></script>
-<script type="text/javascript">
-    $(function () {
-        $('#datetimepicker').datetimepicker({
-            language: 'zh-CN',
-            weekStart: 1,
-            todayBtn: 1,
-            autoclose: 1,
-            todayHighlight: 1,
-            startView: 2,
-            forceParse: 0,
-            showMeridian: 1,
-            minView: "month", //选择日期后，不会再跳转去选择时分秒
-            format: "yyyy-mm-dd", //选择日期后，文本框显示的日期格式
-            autoclose: true //选择日期后自动关闭
-        }).on('changeDate', function (ev) {
-            $(this).datetimepicker('hide');
-        });
-    });
-</script>
 </body>
 </html>

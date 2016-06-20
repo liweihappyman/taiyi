@@ -521,6 +521,11 @@ body {
     vertical-align: middle;
 }
 
+/*报告单模态框modal-report-infrared开始*/
+.modal-dialog {
+    background-color: #fff;
+}
+
 /*确认体质button开始*/
 .submit-infrared-phyide {
     width: 100%;
@@ -768,24 +773,63 @@ body {
 
 .patientInformation-new-medrec {
     background-color: #fff;
+    margin-top: 4px;
     margin-bottom: 2px;
 }
 
-.patientInformation-new-medrec a {
+.patientInformation-new-medrec .patientInformation {
+    height: 32px;
+    line-height: 32px;
+    background-color: #56abe4;
+    color: #fff;
+    padding-left: 5%;
+}
+
+.patientInformation-new-medrec .patient-name {
+    height: 40px;
+    line-height: 40px;
     display: block;
-    background: url("../icon/forward_1.png") 97% no-repeat;
-}
-
-.patientInformation-new-medrec div {
-    margin-top: 8px;
-    margin-bottom: 2px;
+    position: relative;
     padding-left: 5%;
     color: #74777b;
 }
 
-.patientInformation-new-medrec .patientInformation {
+.patientInformation-new-medrec .patient-name a {
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    color: #963;
+}
+
+.visit-information-medrec .time-visti-medrec {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 5%;
     background-color: #56abe4;
     color: #fff;
+}
+
+.visit-information-medrec #datetimepicker {
+    margin: 8px auto;
+}
+
+.basic-input-patient-information .idOfPatient {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 5%;
+    background-color: #56abe4;
+    color: #fff;
+}
+
+.basic-input-patient-information .form-control {
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    padding-left: 5%;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 .diagnosis-new-medrec {
@@ -796,12 +840,15 @@ body {
 }
 
 .diagnosis-new-medrec .diagnosisInformation {
+    height: 32px;
+    line-height: 32px;
     padding-left: 5%;
     background-color: #56abe4;
     color: #fff;
 }
 
 .diagnosis-new-medrec .form-control {
+    font-size: 16px;
     padding-left: 5%;
     border: none;
     -webkit-box-shadow: none;
