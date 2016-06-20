@@ -757,7 +757,7 @@ body {
     font-weight: 800;
 }
 
-/*体质报告new-medrec开始*/
+/*新建体质报告new-medrec开始*/
 .label-new-medrec {
     margin-top: 5px;
     margin-bottom: 2px;
@@ -777,7 +777,7 @@ body {
     margin-bottom: 2px;
 }
 
-.patientInformation-new-medrec .patientInformation {
+.title-patientInformation {
     height: 32px;
     line-height: 32px;
     background-color: #56abe4;
@@ -801,27 +801,11 @@ body {
     color: #963;
 }
 
-.visit-information-medrec .time-visti-medrec {
-    height: 32px;
-    line-height: 32px;
-    padding-left: 5%;
-    background-color: #56abe4;
-    color: #fff;
-}
-
 .visit-information-medrec #datetimepicker {
     margin: 8px auto;
 }
 
-.basic-input-patient-information .idOfPatient {
-    height: 32px;
-    line-height: 32px;
-    padding-left: 5%;
-    background-color: #56abe4;
-    color: #fff;
-}
-
-.basic-input-patient-information .form-control {
+.department-patient-information .form-control {
     height: 40px;
     line-height: 40px;
     font-size: 16px;
@@ -837,14 +821,6 @@ body {
     margin-bottom: 2px;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-}
-
-.diagnosis-new-medrec .diagnosisInformation {
-    height: 32px;
-    line-height: 32px;
-    padding-left: 5%;
-    background-color: #56abe4;
-    color: #fff;
 }
 
 .diagnosis-new-medrec .form-control {
@@ -924,6 +900,7 @@ body {
 /*患者信息patient-information-medrec开始*/
 .name-patient-information {
     background-color: #fff;
+    margin-top: 8px;
     margin-bottom: 2px;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
@@ -935,12 +912,24 @@ body {
     color: #fff;
 }
 
-.name-patient-information .form-control {
+.container-basic-patient-information .form-control {
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
     padding-left: 5%;
     border: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+}
+
+.container-basic-patient-information .radio {
+    margin-left: 5%;
+}
+
+.container-basic-patient-information .radio .icon-checked:before,
+.container-basic-patient-information .radio .icon-unchecked:before {
+    color: #56abe4;
 }
 
 .input-group.focus .input-group-addon {
@@ -953,3 +942,8 @@ body {
     margin-top: 15px;
 }
 
+.submit-patient-information a {
+    color: #fff;
+}
+
+/*添加病程*/
