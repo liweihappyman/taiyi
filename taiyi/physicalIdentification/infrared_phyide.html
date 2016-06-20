@@ -26,11 +26,11 @@
 <!--红外体质辨识infrared-phyide开始-->
 <div class="container container-infrared-phyide">
     <!--红外体质辨识介绍introduce-infrared-phyide开始-->
-        <div class="introduce-infrared-phyide">
-            <span style="width: 18%">根据</span>
-            <span style="color: #963; width: 50%;">红外热像仪热图报告单</span>
-            <span style="width: 32%">选择您的体质</span>
-        </div>
+    <div class="introduce-infrared-phyide">
+        <span style="width: 18%">根据</span>
+        <span style="color: #963; width: 50%;">红外热像仪热图报告单</span>
+        <span style="width: 32%">选择您的体质</span>
+    </div>
     <!--红外体质辨识介绍introduce-infrared-phyide结束-->
 
     <!--红外体质辨识选项item-infrared-phyide开始-->
@@ -76,12 +76,12 @@
     <!--红外体质辨识上传报告单report-infrared-phyide开始-->
     <div class="row report-infrared-phyide">
         <div class="col-xs-4">
-            <a href="../publicStyle/img/report-infrared.jpg" class="report-infrared">
+            <a  class="report-infrared" data-toggle="modal" data-target=".modal-report-infrared1">
                 <img src="../publicStyle/img/report-infrared.jpg" alt="缩略图">
             </a>
         </div>
         <div class="col-xs-4">
-            <a href="#" class="report-infrared">
+            <a  class="report-infrared" data-toggle="modal" data-target=".modal-report-infrared2">
                 <img src="../publicStyle/img/report-infrared.jpg" alt="缩略图">
             </a>
         </div>
@@ -101,11 +101,28 @@
 </div>
 <!--红外体质辨识infrared-phyide结束-->
 
+
+<div class="modal fade modal-report-infrared1" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img style="width: 100%" src="../publicStyle/img/report-infrared.jpg">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-report-infrared2" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img style="width: 100%" src="../publicStyle/img/report-infrared.jpg">
+        </div>
+    </div>
+</div>
+
 <script src="../publicStyle/js/jquery.min.js"></script>
 <script src="../publicStyle/js/bootstrap.min.js"></script>
 <script type="text/javascript">
-    $(document).ready(function(){
-        $('.report-infrared img').css('height',$('.report-infrared img').css('width'));
+    $(document).ready(function () {
+        $('.report-infrared img').css('height', $('.report-infrared img').css('width'));
     })
 </script>
 </body>
