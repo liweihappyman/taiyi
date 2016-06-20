@@ -512,7 +512,7 @@ body {
     top: -10px;
 }
 
-.report-infrared-phyide img {
+.report-upload-public img {
     width: 100%;
 }
 
@@ -947,3 +947,48 @@ body {
 }
 
 /*添加病程*/
+.container-select-course {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 5%;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    background-color: #fff;
+    position: relative;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.container-select-course .nav-select-course{
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+}
+
+.container-select-course .nav-select-course .dropdown-menu {
+    left: -100%;
+    font-size: 16px;
+}
+
+.container-select-course .nav-select-course .dropdown-menu li {
+    margin: 4px auto;
+}
+
+.illness-record-course {
+    background-color: #fff;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.illness-record-course .form-control {
+    font-size: 16px;
+    padding-left: 5%;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
