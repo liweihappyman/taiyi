@@ -1015,6 +1015,11 @@ body {
     padding-left: 5%;
 }
 
+.illness-record-course .report-illness-time {
+    margin: 24px auto!important;
+}
+
+
 .submit-new-course .btn {
     color: #fff;
 }

@@ -38,7 +38,7 @@
         <div class="date-group">
             <div class="time-visti-medrec title-patientInformation">选择就诊日期</div>
             <div class="input-group date" id='datetimepicker'>
-                <input type="text" class="form-control"/>
+                <input type="text" placeholder="选择就诊日期" class="form-control"/>
                 <span class="input-group-addon">
                     <span class="glyphicon glyphicon-calendar"></span>
                 </span>
@@ -66,10 +66,12 @@
             添加病程
         </a>
         <div class="container course-new-medrec list-course-new-medrec">
-            <div class="course-information">
-                <span class="course color-bg-medrec">入院</span>
-                <span class="remark-course-medrec">备注信息</span>
-            </div>
+            <a href="modify_course.html">
+                <div class="course-information">
+                    <span class="course color-bg-medrec">入院</span>
+                    <span class="remark-course-medrec">患者病情</span>
+                </div>
+            </a>
             <div class="row report-course">
                 <div class="list-report-coures col-xs-6">
                     <a href="#" class="report-infrared">
@@ -88,10 +90,12 @@
         </div>
 
         <div class="container course-new-medrec list-course-new-medrec">
-            <div class="course-information">
-                <span class="course color-bg-medrec">处方医嘱</span>
-                <span class="remark-course-medrec">备注信息</span>
-            </div>
+            <a href="modify_course.html">
+                <div class="course-information">
+                    <span class="course color-bg-medrec">处方医嘱</span>
+                    <span class="remark-course-medrec">患者病情</span>
+                </div>
+            </a>
             <div class="row report-course">
                 <div class="list-report-coures col-xs-6">
                     <a href="#" class="report-infrared">
@@ -131,7 +135,8 @@
 </script>
 <!--日期js-->
 <script src="../publicStyle/js/datetimepicker/bootstrap-datetimepicker.min.js"></script>
-<script type="text/javascript" src="../publicStyle/js/datetimepicker/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+<script type="text/javascript"
+        src="../publicStyle/js/datetimepicker/locales/bootstrap-datetimepicker.zh-CN.js"></script>
 <script type="text/javascript">
     $(function () {
         $('#datetimepicker').datetimepicker({
