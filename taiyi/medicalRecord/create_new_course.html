@@ -52,10 +52,11 @@
 <!--新建病程create-new-course结束-->
 
 <!--记录患者病情illness-record-course结束-->
-<div class="illness-record-course">
+<div class="container illness-record-course">
     <textarea class="form-control" placeholder="记录患者病情"></textarea>
     <!--红外体质辨识上传报告单report-infrared-phyide开始-->
     <div class="row report-illness-record report-upload-public">
+        <div class="add-image-record">添加影像记录</div>
         <div class="col-xs-4">
             <a  class="report-illness" data-toggle="modal" data-target=".modal-report-infrared1">
                 <img src="../publicStyle/img/report-infrared.jpg" alt="缩略图">
@@ -70,6 +71,14 @@
             <a href="../publicFunction/public_upload_report.html" class="report-upload1">
                 <img src="../publicStyle/img/upload.png" alt="缩略图">
             </a>
+        </div>
+    </div>
+    <div class="date-group">
+        <div class="input-group date" id='datetimepicker1'>
+            <input type="text" placeholder="选择上传时间" class="form-control"/>
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
         </div>
     </div>
 </div>
@@ -88,6 +97,25 @@
     $(document).ready(function () {
         $('.report-illness img').css('height', $('.report-illness img').css('width'));
     })
+</script>
+<script type="text/javascript" src="../publicStyle/js/datetimepicker/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#datetimepicker1').datetimepicker({
+            language: 'zh-CN',
+            weekStart: 1,
+            todayBtn: 1,
+            todayHighlight: 1,
+            startView: 2,
+            forceParse: 0,
+            showMeridian: 1,
+            minView: "month", //选择日期后，不会再跳转去选择时分秒
+            format: "yyyy-mm-dd", //选择日期后，文本框显示的日期格式
+            autoclose: true //选择日期后自动关闭
+        }).on('changeDate', function (ev) {
+            $(this).datetimepicker('hide');
+        });
+    });
 </script>
 
 </body>
