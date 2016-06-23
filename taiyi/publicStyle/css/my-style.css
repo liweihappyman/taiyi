@@ -140,11 +140,32 @@ body {
     background: url("../icon/back.png") 15px no-repeat;
 }
 
+/*待返回的标题栏*/
+.fixNav-back-taiyi {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #e6e6e6;
+    background: #2C3E50;
+    font-weight: 700;
+    position: fixed;
+    z-index: 100;
+}
+
+.fixNav-back-taiyi a {
+    float: left;
+    width: 40px;
+    height: 24px;
+    margin-top: 8px;
+    margin-right: -40px;
+    background: url("../icon/back.png") 15px no-repeat;
+}
+
 .popover-information {
     width: 100%;
     position: absolute;
     top: 40px;
-    opacity: .8!important; ;
+    opacity: .8 !important;;
     z-index: 100;
 }
 
@@ -378,27 +399,13 @@ body {
     background-position: -99px -34px;
 }
 
-/*体质辨识开始*/
-.fixNav-phyide {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    color: #e6e6e6;
-    background: #2C3E50;
-    font-weight: 700;
-    position: fixed;
-    z-index: 100;
-}
+/*
 
-.fixNav-phyide a {
-    float: left;
-    width: 40px;
-    height: 24px;
-    margin-top: 8px;
-    margin-right: -40px;
-    background: url("../icon/back.png") 15px no-repeat;
-}
 
+体质辨识开始
+
+
+*/
 /*体质辨识介绍开始*/
 /*phyide : physical identification*/
 .introduce-phyide {
@@ -555,7 +562,6 @@ body {
     margin-top: 24px;
 }
 
-
 /*体质测试问卷questionnaire-phyide开始*/
 .container-questionnaire-phyide {
     text-align: center;
@@ -668,26 +674,6 @@ body {
 
 */
 /*medrec : medical record*/
-.fixNav-medrec {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    color: #fff;
-    background: #56abe4;
-    font-weight: 700;
-    position: fixed;
-    z-index: 100;
-}
-
-.fixNav-medrec a {
-    float: left;
-    width: 40px;
-    height: 24px;
-    margin-top: 8px;
-    margin-right: -40px;
-    background: url("../icon/back.png") 15px no-repeat;
-}
-
 /*新建病历create-new-medrec开始*/
 .create-new-medrec {
     width: 100%;
@@ -977,7 +963,7 @@ body {
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
 
-.container-select-course .nav-select-course{
+.container-select-course .nav-select-course {
     position: absolute;
     right: 5%;
     bottom: 0;
@@ -1016,9 +1002,8 @@ body {
 }
 
 .illness-record-course .report-illness-time {
-    margin: 24px auto!important;
+    margin: 24px auto !important;
 }
-
 
 .submit-new-course .btn {
     color: #fff;
