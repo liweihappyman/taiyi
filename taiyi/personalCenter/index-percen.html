@@ -15,14 +15,117 @@
 <body>
 <!--标题栏开始-->
 <div class="header header-taiyi">
-    <div class="fixNav-back-taiyi color-bg-medrec">
-        <a href="new_medrec.html"></a>
-        <span>新建病程</span>
+    <div class="fixNav-back-taiyi color-bg-percen">
+        <a href="../index.html"></a>
+        <span>个人中心</span>
     </div>
 </div>
 <!--标题栏结束-->
 
+<!--用户个人中心user-center开始-->
+<!--percen: personal center-->
+<div class="user-center-percen color-bg-percen row">
+    <div class="col-xs-4 user-profile">
+        <span><img src="../publicStyle/img/user-profile.jpg"></span>
+    </div>
+
+    <div class="col-xs-8 user-info">
+        <div class="message-user-info">
+            <a href=""><img src="../publicStyle/icon/message-user-info.png"></a>
+        </div>
+        <div class="username-user-info">
+            <span>用户名</span>
+        </div>
+        <ul class="property-user-info">
+            <li class="level-user-info fl">等级1</li>
+            <li class="money-user-info fl">
+                <img class="fl" src="../publicStyle/icon/money-user-info.png">
+                <span class="fl">100</span>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--用户个人中心user-center结束-->
+
+<!--各项功能function-user-percen开始-->
+<div class="function-user-percen">
+    <ul class="message-function">
+        <a href="../index.html">
+            <li>
+                <img>
+                个人信息
+            </li>
+        </a>
+
+        <a href="">
+            <li>
+                <img>
+                我的消息
+            </li>
+        </a>
+
+        <a href="">
+            <li>
+                <img>
+                我的关注
+            </li>
+        </a>
+
+        <a href="">
+            <li>
+                <img>
+                我的收藏
+            </li>
+        </a>
+    </ul>
+
+    <ul class="shop-function">
+        <a href="">
+            <li>
+                <img>
+                购物车
+            </li>
+        </a>
+
+        <a href="">
+            <li>
+                <img>
+                我的订单
+            </li>
+        </a>
+
+        <a href="">
+            <li>
+                <img>
+                地址管理
+            </li>
+        </a>
+    </ul>
+
+    <ul class="setting-function">
+        <a href="">
+            <li>
+                <img>
+                用户反馈
+            </li>
+        </a>
+
+        <a href="">
+            <li>
+                <img>
+                我的设置
+            </li>
+        </a>
+    </ul>
+</div>
+<!--各项功能function-user-percen结束-->
+
 <script src="../publicStyle/js/jquery.min.js"></script>
 <script src="../publicStyle/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.user-profile img').css('height', $('.user-profile img').css('width'));
+    })
+</script>
 </body>
 </html>
