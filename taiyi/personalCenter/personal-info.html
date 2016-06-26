@@ -1,10 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>个人信息</title>
+    <link href="../publicStyle/flat-ui/css/flat-ui.css" rel="stylesheet">
+    <link href="../publicStyle/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../publicStyle/css/my-style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
+<!--标题栏开始-->
+<div class="header header-taiyi">
+    <div class="fixNav-back-taiyi color-bg-percen">
+        <a href="index-percen.html"></a>
+        <span>个人信息</span>
+    </div>
+</div>
+<!--标题栏结束-->
 
+<!--个人personal-information-percen开始-->
+<div class="personal-information-percen">
+    <!--个人基本信息container-basic-patient-information开始-->
+    <div class="container-basic-patient-information">
+        <div class="name-patient-information">
+            <div class="nameOfPatient color-bg-percen title-patientInformation">姓名</div>
+            <input type="text" class="form-control" placeholder="输入姓名">
+        </div>
+
+        <div class="gender-patient-information">
+            <div class="genderOfPatient color-bg-percen title-patientInformation">性别</div>
+            <label class="radio">
+                <input type="radio" name="gender-optionsRadios" id="genderOptionsRadios1" value="option1" data-toggle="radio"
+                       class="custom-radio">
+                <span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                男性
+            </label>
+            <label class="radio">
+                <input type="radio" name="gender-optionsRadios" id="genderOptionsRadios2" value="option1" data-toggle="radio"
+                       checked="" class="custom-radio"><span class="icons"><span class="icon-unchecked"></span><span
+                    class="icon-checked"></span></span>
+                女性
+            </label>
+        </div>
+
+        <div class="age-patient-information">
+            <div class="ageOfPatient color-bg-percen title-patientInformation">年龄</div>
+            <input type="text" class="form-control" placeholder="输入年龄">
+        </div>
+
+        <div class="id-patient-information">
+            <div class="idOfPatient color-bg-percen title-patientInformation">身份证</div>
+            <input type="text" class="form-control" placeholder="输入身份证">
+        </div>
+
+        <div class="occupation-patient-information">
+            <div class="occupationOfPatient color-bg-percen title-patientInformation">职业</div>
+            <input type="text" class="form-control" placeholder="输入职业">
+        </div>
+
+        <div class="marriage-patient-information">
+            <div class="marriageOfPatient color-bg-percen title-patientInformation">婚姻状况</div>
+            <label class="radio">
+                <input type="radio" name="marriage-optionsRadios" id="marriageOptionsRadios1" value="option1" data-toggle="radio"
+                       class="custom-radio">
+                <span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
+                已婚
+            </label>
+            <label class="radio">
+                <input type="radio" name="marriage-optionsRadios" id="marriageOptionsRadios2" value="option1" data-toggle="radio"
+                       checked="" class="custom-radio"><span class="icons"><span class="icon-unchecked"></span><span
+                    class="icon-checked"></span></span>
+                未婚
+            </label>
+        </div>
+    </div>
+
+</div>
+<!--个人personal-information-percen结束-->
+
+<!--保存个人信息开始-->
+<div class="container submit-patient-information">
+    <a class="btn btn-block color-bg-percen" href="index-percen.html">保存</a>
+</div>
+<!--保存个人信息结束-->
+
+<div class="container" style="height: 5px">
+</div>
+
+<script src="../publicStyle/js/jquery.min.js"></script>
+<script src="../publicStyle/js/bootstrap.min.js"></script>
+<script src="../publicStyle/flat-ui/js/flat-ui.min.js"></script>
+<script src="../publicStyle/flat-ui/js/application.js"></script>
 </body>
 </html>

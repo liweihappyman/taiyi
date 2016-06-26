@@ -905,6 +905,17 @@ body {
 }
 
 /*患者信息patient-information-medrec开始*/
+.patient-information-medrec {
+    position: relative;
+}
+
+.patient-information-medrec .set-as-default-user {
+    position: absolute;
+    right: 2%;
+    font-weight: bold;
+    color: #963;
+}
+
 .name-patient-information {
     background-color: #fff;
     margin-top: 8px;
@@ -1023,7 +1034,7 @@ body {
 /*用户个人中心user-center开始*/
 .user-center-percen {
     width: 100%;
-    height: 20%;
+    height: 16%;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 20px;
@@ -1061,7 +1072,7 @@ body {
 .user-center-percen .user-info .message-user-info img {
     height: 32px;
     position: absolute;
-    right: 10%;
+    right: 8%;
     top: 15%;
 }
 
@@ -1096,21 +1107,30 @@ body {
     margin-right: 10px;
 }
 
-.function-user-percen ul {
+.function-user-percen .container-function-percen {
     background-color: #fff;
     margin-bottom: 20px;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
 
-.function-user-percen ul li {
+.function-user-percen .container-function-percen a div {
     height: 40px;
     line-height: 40px;
     color: #74777b;
     border-bottom: 1px solid #eee;
 }
 
-.function-user-percen ul li a img{
+.function-user-percen .container-function-percen a div:after {
+    float: right;
+    width: 24px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 2%;
+    background: url("../icon/forward_2.png") 90% no-repeat;
+}
+
+.function-user-percen .container-function-percen a img {
     height: 22px;
     margin-left: 10px;
     margin-right: 10px;
@@ -1123,3 +1143,75 @@ body {
     height: 24px;
     background: url("../icon/forward_1.png") 90% no-repeat;
 }*/
+
+/*个人personal-information-percen开始*/
+.personal-information-percen .container-basic-patient-information .radio .icon-checked:before,
+.personal-information-percen .container-basic-patient-information .radio .icon-unchecked:before {
+    color: #9EAAC4;
+}
+
+/*消息记录开始message-record-percen开始*/
+.message-record-percen {
+    margin: 10px auto 20px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.message-record-percen a {
+    color: #74777b;
+}
+
+.message-record-percen .title-message-record {
+    margin: 5px auto 5px;
+}
+
+.message-record-percen .content-message-record {
+    height: 96px;
+    line-height: 24px;
+    margin: 5px auto 5px;
+    overflow: hidden;
+}
+
+
+/*
+
+
+公共消息public_message开始
+
+
+*/
+.container-public-message {
+    width: 100%;
+    background-color: #fff;
+}
+
+.container-public-message .header-public-message h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.container-public-message .list-public-message {
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+}
+
+.container-public-message .list-public-message .time-public-message {
+    float: left;
+    margin-right: 15px;
+}
+
+.container-healthyInformation-detail-phyide .list-public-message .category-public-message {
+    float: right;
+    color: #963;
+}
+
+.content-public-message {
+    padding-top: 15px;
+}
+
+.content-public-message img {
+    width: 100%;
+}
