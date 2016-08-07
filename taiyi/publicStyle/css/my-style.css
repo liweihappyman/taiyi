@@ -23,6 +23,7 @@ textarea {
 
 a {
     text-decoration: none;
+    color: #74777b;
 }
 
 /*浮动与清除清浮动*/
@@ -304,45 +305,74 @@ body {
     top: 70%;
 }
 
-/*每日一菜container-dish-everyday开始*/
-.container-dish-everyday {
+#sports-healthyInformation a {
+    position: relative;
+}
+
+#sports-healthyInformation a:after {
+    width: 64px;
+    height: 64px;
+    margin-left: -32px;
+    margin-top: -32px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url("../icon/player.png") no-repeat;
+    z-index: 100;
+}
+
+/*咨询每周一菜每周一歌container-info-dish-song开始*/
+.container-info-dish-song {
     margin-bottom: 20px;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
 
-.container-dish-everyday .title-dish-everyday {
-    text-align: center;
+.title-info-dish-song {
     height: 32px;
     line-height: 32px;
-    background-color: #fff;
-    margin-bottom: 1px;
+    overflow: auto;
+    background: #fff;
 }
 
-.container-dish-everyday .img-dish-everyday {
-    padding:3%;
-    background-color: #fff;
-    margin-bottom: 1px;
+.content-info-dish-song {
+    background: #fff;
 }
 
-.container-dish-everyday .img-dish-everyday a {
-    border-radius: 5px;
-    overflow: hidden;
+.list-info-dish-song {
+    height: 100%;
+    overflow: auto;
+    border-top: 1px solid #eee;
     display: block;
 }
 
-.container-dish-everyday .img-dish-everyday img {
-    width: 100%;
-    height: 150px;
+.img-list-info-dish-song {
+    width: 25%;
 }
 
-.container-dish-everyday .name-dish-everyday {
-    text-align: center;
-    height: 32px;
-    line-height: 32px;
-    background-color: #fff;
-    margin-bottom: 1px;
+.img-list-info-dish-song img {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+.text-list-info-dish-song {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-list-info-dish-song .name-list-info-dish-song {
+    font-weight: bold;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.text-list-info-dish-song .keyword-list-info-dish-song,
+.text-list-info-dish-song .time-list-info-dish-song {
+    color: #d9dbdd;
+}
+
+
 
 /*底部导航栏开始*/
 /*.footer {
@@ -688,7 +718,6 @@ body {
     width: 100%;
     height: 32px;
     line-height: 32px;
-    border-bottom: 1px solid #ccc;
 }
 
 .container-healthyInformation-detail-phyide .list-hid-phydie .author-hid-phydie,
@@ -703,7 +732,7 @@ body {
 }
 
 .content-hid-phyide {
-    padding-top: 15px;
+    margin-top: 15px;
 }
 
 .content-hid-phyide img {
@@ -1281,29 +1310,31 @@ body {
     line-height: 180px;
 }
 
-.user-WeChat-binding .user-image-binding .wechat-image{
+.user-WeChat-binding .user-image-binding .wechat-image {
     text-align: right;
 }
 
-.user-WeChat-binding .user-image-binding .wechat-image img{
+.user-WeChat-binding .user-image-binding .wechat-image img {
     width: 90px;
     border: 2px solid #eee;
     border-radius: 50%;
 }
 
-.user-WeChat-binding .user-image-binding .binding-image img{
+.user-WeChat-binding .user-image-binding .binding-image img {
     width: 34px;
 }
 
-.user-WeChat-binding .user-image-binding .binding-user-image img{
+.user-WeChat-binding .user-image-binding .binding-user-image img {
     width: 90px;
 }
 
 .user-WeChat-binding .phone-WeChat-binding,
-.user-WeChat-binding .verification-code-binding{
+.user-WeChat-binding .verification-code-binding {
     height: 40px;
     line-height: 40px;
     border-top: 1px solid #eee;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 .user-WeChat-binding .phone-binding {
